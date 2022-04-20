@@ -9,8 +9,8 @@
 // ==/UserScript==
 
 (function() {
-    document.querySelector('#collection-selector .chosen-search input')
-        .addEventListener('focus', () => {
-        document.querySelector('#collection-selector .chosen-search input').value = 'sitecore_'
+    document.querySelector('#collection-selector .chosen-single')
+        .addEventListener('click', () => {
+        document.querySelector('#collection-selector .chosen-search-input').value = 'sitecore_'
     });
 })();
